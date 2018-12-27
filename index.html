@@ -3,11 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Anthony's Personal Site</title>
+    <!--In order to use CSS throughout the whole page place the CSS <style> tag in the head tag.-->
+    <!--Use the link tag to access a Global CSS file to effect behavior-->
+    <link rel="stylesheet" href="css/styles.css">
   </head>
+  <!--Below is a example of inline CSS-->
+  <!--Below is a CSS style attributes added to the body of the inde.html file-->
   <body>
+    <style>
+    img{
+      height: 150px;
+    }
+    body{
+      background-color: #ceddef;
+    }
+    </style>
     <table cellspacing="20">
       <tr>
-        <td><image src="Tux.png"></td>
+        <td><image src="Resources\Tux.png"></td>
         <td><h1>Anthony Malone</h1>
         <p><em>Founder and CTO of <strong>Code & Load</strong></em></p>
         <p><em>I am a <strong>Full Stack Web Developer</strong> and all around geek.🤯 </em></p></td>
@@ -16,14 +29,14 @@
     </table>
 
     <hr size = "3">
-    <h3>Education</h3>
+    <h2>Education</h2>
     <!--Below is a Un-Ordered list-->
     <ul>
-      <li><a href="http://www.westwood.edu"><strong>Westwood College: Graduate</strong></a></li>
-      <li><a href="https://www.niche.com/k12/escuela-medardo-carazo-trujillo-alto-pr/"><strong>Medardo Carazo High School</strong></a></li>
+      <li><a href="http://www.westwood.edu"><strong><h4>Westwood College: Graduate</h4></strong></a></li>
+      <li><a href="https://www.niche.com/k12/escuela-medardo-carazo-trujillo-alto-pr/"><strong><h4>Medardo Carazo High School</h4></strong></a></li>
     </ul>
     <hr size ="3">
-    <h3>Work Experience</h3>
+    <h2>Work Experience</h2>
     <!--Below is a standard Table-->
     <table border="1">
       <thead>
