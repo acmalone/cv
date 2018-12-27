@@ -14,7 +14,7 @@ color: #448ef6;
 hr {
   border-color: grey;
   border-style: none ;
-  border-top-style: dotted;
-  border-width: 6px;
-  width: 10%;
+  border-top-style: solid;
+  border-width: 3px;
+  width: auto;
 }
