@@ -7,21 +7,64 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
 }
-.w3-row-padding img {
-  margin-bottom: 12px;
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: "Lato", sans-serif;
 }
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {
-  width: 120px;
-  background: #222;
+.button {
+  background-color: lightgray;
 }
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {
-  margin-left: 120px;
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {
-  #main {
-    margin-left: 0;
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidebar a.active {
+  background-color: #1c27bd;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 200px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
   }
 }
