@@ -1,20 +1,27 @@
-
-h1 {
-  color: #5893d4;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
-h2 {
-  color: #1f3c88;
+.w3-row-padding img {
+  margin-bottom: 12px;
 }
-h3 {
-  color: #448ef6;
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 120px;
+  background: #222;
 }
-h4 {
-color: #448ef6;
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+  margin-left: 120px;
 }
-hr {
-  border-color: grey;
-  border-style: none ;
-  border-top-style: solid;
-  border-width: 3px;
-  width: auto;
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
 }
