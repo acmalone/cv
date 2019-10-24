@@ -22,6 +22,7 @@ body {
 /* Introduction */
 #myName {
 font-family: "Allura";
+font-size: 20px;
 }
 
 /* SideNav Look */
@@ -63,7 +64,7 @@ font-family: "Allura";
   margin-left: 50px;
 }
 
-/* */
+/* Hamburger Menu */
 #main {
   transition: margin-left .5s;
   padding: 19px;
