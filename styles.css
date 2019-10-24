@@ -22,7 +22,7 @@ body {
 /* Introduction */
 #myName {
 font-family: "Allura";
-font-size: large;
+height: auto;
 }
 
 /* SideNav Look */
