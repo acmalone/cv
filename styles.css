@@ -30,7 +30,6 @@ body {
 #myName {
 border: 0em;
 font-family: "Allura";
-
 font-size: 50px;
 padding: 0em;
 margin: 0em;
@@ -42,6 +41,8 @@ margin: 0em;
   font-family: "default";
   font-size: 28px;
   padding: 0em;
+  position: relative;
+  bottom: 30px;
   margin: 0em;
 }
 
