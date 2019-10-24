@@ -19,10 +19,51 @@ body {
   transition: background-color .5s;
 }
 
+/* Intro */
+#intro {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
 /* Introduction */
 #myName {
+border: 0em;
 font-family: "Allura";
-height: 25px;
+
+font-size: 50px;
+padding: 0em;
+margin: 0em;
+}
+
+/* Introduction job text */
+#job {
+  border: 0em;
+  font-family: "default";
+  font-size: 28px;
+  padding: 0em;
+  margin: 0em;
+}
+
+/* Download Resume Button */
+#button {
+  border-radius: 10px;
+  background-color: #df8931;
+  color: black;
+  font-family: "default";
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  position: fixed;
+  margin-left: 43.0%;
+  margin-top: auto;
+}
+
+/* Download Resume Button On Hover */
+#button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
 }
 
 /* SideNav Look */
@@ -52,7 +93,7 @@ height: 25px;
 
 /* SideNav Open Text Look */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: red /*#f1f1f1*/;
 }
 
 /* CloseButton Look */
@@ -100,6 +141,12 @@ height: 25px;
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
+
+@keyframes background-color {
+  100% {
+    background-color: black;
+    color: #df8931;
+  }
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
