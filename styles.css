@@ -18,7 +18,10 @@ body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
 }
-
+.wrapper {
+  padding-top: 10em;
+  text-align: center;
+}
 /* Intro */
 #intro {
   color: white;
@@ -29,6 +32,7 @@ body {
 /* Introduction */
 #myName {
 border: 0em;
+color: #df8931;
 font-family: "Allura";
 font-size: 50px;
 padding: 0em;
@@ -43,7 +47,27 @@ margin: 0em;
   padding: 0em;
   position: relative;
   bottom: 30px;
+  display: inline-block;
+}
+
+/* Projects Link */
+#projects {
+  border: 0em;
+  color: white;
+  font-family: "default";
+  font-size: 28px;
+  padding: 0em;
   margin: 0em;
+  padding: 0em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Projects Link On Hover */
+#projects:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
 }
 
 /* Download Resume Button */
@@ -55,9 +79,8 @@ margin: 0em;
   font-size: 20px;
   font-style: italic;
   font-weight: bold;
-  position: fixed;
-  margin-left: 43.0%;
-  margin-top: auto;
+  box-shadow: 0px 5px 10px 10px;
+  display: inline-block;
 }
 
 /* Download Resume Button On Hover */
@@ -81,7 +104,6 @@ margin: 0em;
   padding-top: 60px;
 }
 
-
 /* SideNav Open Look */
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -94,7 +116,7 @@ margin: 0em;
 
 /* SideNav Open Text Look */
 .sidenav a:hover {
-  color: red /*#f1f1f1*/;
+  color: #df8931;
 }
 
 /* CloseButton Look */
@@ -108,39 +130,10 @@ margin: 0em;
 
 /* Hamburger Menu */
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 10s;
   padding: 19px;
-  position: sticky;
+  position: absolute;
   top: 0;
-}
-
-/* HamburgerMenu Animation*/
-.container {
-  display: inline-block;
-  cursor: pointer;
-  position: sticky;
-  top: 0;
-}
-/* End of HamburgerMenu */
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: red;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 @keyframes background-color {
@@ -152,6 +145,5 @@ margin: 0em;
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-  .mySidenav {position: sticky; top: 0;}
   .container {position: sticky; top: 0;}
 }
