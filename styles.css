@@ -18,10 +18,25 @@ body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
 }
+
+/* Wrapper for the Intro Code-Block */
 .wrapper {
-  padding-top: 10em;
+  padding-top: 5em;
   text-align: center;
 }
+
+/* Homepage Navigation */
+#homepage {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Projects Background Color */
+#projectBody {
+  background-color: gray;
+}
+
+
 /* Intro */
 #intro {
   color: white;
