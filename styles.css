@@ -31,11 +31,16 @@ body {
   text-align: center;
 }
 
-/* Projects Background Color */
+/* Projects Page Background Color */
 #projectBody {
   background-color: lightgray;
 }
 
+/* Pojects Page Container0 */
+#projectsPageContainer0 {
+  text-decoration-style: solid;
+  -moz-text-decoration-color: red;
+}
 
 /* Intro */
 #intro {
