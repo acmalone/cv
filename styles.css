@@ -24,6 +24,10 @@ body {
   padding-top: 5em;
   text-align: center;
 }
+/* Wrapper for Projects wrapper0 */
+.wrapper0 {
+  color: green;
+}
 
 /* Homepage Navigation */
 #homepage {
