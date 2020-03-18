@@ -166,9 +166,12 @@ margin: 0em;
     background-color: black;
     color: #df8931;
   }
+}
 
-@media not|only screen and (max-height: 450px) {
+@media only screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .container {position: sticky; top: 0;}
 }
+
+
