@@ -38,7 +38,7 @@ body {
 
 /* Projects Page Background Color */
 #projectBody {
-  background-color: skyblue;
+  background-color: blue;
 }
 
 /* Pojects Page Container0 */
@@ -167,7 +167,7 @@ margin: 0em;
     color: #df8931;
   }
 
-@media screen and (max-height: 450px) {
+@media not|only screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .container {position: sticky; top: 0;}
