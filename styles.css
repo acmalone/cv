@@ -51,12 +51,13 @@ body {
 #homePage {
   text-decoration: none;
   text-align: center;
+  margin-left: center;
 }
 
 /* Intro */
 #intro {
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 40px;
 }
 
