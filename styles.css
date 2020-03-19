@@ -48,7 +48,10 @@ body {
 }
 
 /* Projects Home Page Return Button */
-#homePage
+#homePage {
+  text-decoration: none;
+  text-align: center;
+}
 
 /* Intro */
 #intro {
