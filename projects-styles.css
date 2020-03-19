@@ -1,0 +1,35 @@
+.flex-container {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10em;
+    margin-top: -1em;
+  }
+
+/* Projects Page Background Color */
+#projectBody {
+    background-color: #084177;
+  }
+
+/* Projects Home Page Return Button*/
+#homePage {
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    }
+
+
+    /* Wrapper for Projects wrapper0 */       /* Working on this Now */
+.wrapper0 {
+    color: green;
+    text-decoration-style: wavy;
+  }
+  
+
+
+

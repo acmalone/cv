@@ -24,12 +24,7 @@ body {
   padding-top: 5em;
   text-align: center;
 }
-/* Wrapper for Projects wrapper0 */
-.wrapper0 {
-  color: green;
-  text-decoration-style: wavy;
-  margin: 50%;
-}
+
 
 /* Homepage Navigation */
 #homepage {
@@ -37,22 +32,10 @@ body {
   text-align: center;
 }
 
-/* Projects Page Background Color */
-#projectBody {
-  background-color: #084177;
-}
-
 /* Pojects Page Container0 */
 #projectsPageContainer0 {
   text-decoration-style: solid;
   text-decoration-color: red;
-}
-
-/* Projects Home Page Return Button */
-#homePage {
-  text-decoration: none;
-  text-align: center;
-  margin-left: 50%;
 }
 
 /* Intro */
