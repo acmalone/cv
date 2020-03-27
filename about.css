@@ -2,6 +2,19 @@
     background-color: skyblue;
 }
 
+#homepage {
+    color: #323edd;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+                                        /* Working on this now!!! */
+#homepage:hover {
+    color: #6807f9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .aboutWrapper0 {
     text-align: center;
 }
