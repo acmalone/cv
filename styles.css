@@ -144,14 +144,14 @@ margin: 0em;
   margin-left: 50px;
 }
 
-/* Hamburger Menu 
+/* Hamburger Menu */
 #main {
-  transition: margin-left 10s;
+  margin-left: 10px;
   padding: 19px;
   position: absolute;
   top: 0;
 }
-*/
+
 
 @keyframes background-color {
   100% {
