@@ -146,7 +146,7 @@ margin: 0em;
 
 /* Hamburger Menu */
 #main {
-  margin-left: 10px;
+  transition: margin-left -10s;
   padding: 19px;
   position: absolute;
   top: 0;
