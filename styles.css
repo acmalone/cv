@@ -13,7 +13,7 @@ h2 {
 }
 
 body {
-  background-color: black;
+  background-color: red;
   color: white;
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
