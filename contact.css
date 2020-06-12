@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+    display: block;
     margin-top: 7em;
     text-align: center;
 }
@@ -26,17 +27,13 @@ h1 {
 }
 
 
-.linkedinIcon {
+.socialMedia {
     display: block;
     margin-top: 2em;
-}
-
-.linkedinIcon:hover {
-    background-color: black;
-    border-style: solid;
-    border-color: red;
-    cursor: grabbing;
     padding: 15px;
-    transition: 1.8s;
 }
 
+.socialMediaIcons {
+    width: 60px;
+    height: 60px;    
+}
