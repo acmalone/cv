@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+    touch-action: auto;
+}
+
+.homepage {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.homepage:hover {
+    color: gold;
+    display: block;
+    text-align: center;
+}
+
+.container {
+    color: black;
+    width: auto;
+    height: 25em;
+    text-align: center;
+    padding: 1em;
+}
