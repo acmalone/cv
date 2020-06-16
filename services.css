@@ -5,14 +5,14 @@ body {
 
 .homepage {
     color: black;
-    display: block;
+    display: inline-block;
     text-align: center;
     text-decoration: none;
 }
 
 .homepage:hover {
     color: gold;
-    display: block;
+    display: inline-block;
     text-align: center;
 }
 
