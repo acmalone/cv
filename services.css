@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: #32e0c4;
     touch-action: auto;
 }
 
@@ -11,9 +11,10 @@ body {
 }
 
 .homepage:hover {
-    color: gold;
+    color: white;
     display: inline-block;
     text-align: center;
+    cursor: grab;
 }
 
 .container {
