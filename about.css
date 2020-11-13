@@ -1,17 +1,19 @@
-#aboutBody {
+.body {
     background-color: skyblue;
 }
 
-#homepage {
+.homepage {
     color: #323edd;
     font-weight: bold;
+    text-align: center;
     text-decoration: none;
 }
 
                                         /* Working on this now!!! */
-#homepage:hover {
+.homepage:hover {
     color: #6807f9;
     font-weight: bold;
+    text-align: center;
     text-decoration: none;
 }
 
