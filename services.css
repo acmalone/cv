@@ -4,7 +4,7 @@ body {
 }
 
 .homepageLink {
-  color: black;
+  color: #acabe6;
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  color: black;
+  color: #acabe6;
   width: auto;
   height: 25em;
   text-align: center;
