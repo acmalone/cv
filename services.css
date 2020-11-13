@@ -11,7 +11,7 @@ body {
 }
 
 .homepageLink:hover {
-  color: white;
+  color: #b35976;
   display: inline-block;
   text-align: center;
   cursor: grab;
