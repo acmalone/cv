@@ -1,26 +1,26 @@
 body {
-    background-color: #32e0c4;
-    touch-action: auto;
+  background-color: #32e0c4;
+  touch-action: auto;
 }
 
 .homepage {
-    color: black;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .homepage:hover {
-    color: white;
-    display: inline-block;
-    text-align: center;
-    cursor: grab;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  cursor: grab;
 }
 
 .container {
-    color: black;
-    width: auto;
-    height: 25em;
-    text-align: center;
-    padding: 1em;
+  color: black;
+  width: auto;
+  height: 25em;
+  text-align: center;
+  padding: 1em;
 }
