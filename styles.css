@@ -27,7 +27,7 @@ body {
 /* Intro */
 .intro {
   color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 40px;
   font-weight: bold;
   margin-top: 4em;
@@ -35,12 +35,12 @@ body {
 
 /* Introduction */
 .myName {
-border: 0em;
-color: #df8931;
-font-family: "Allura";
-font-size: 50px;
-padding: 0em;
-margin: 0em;
+  border: 0em;
+  color: #df8931;
+  font-family: "Allura";
+  font-size: 50px;
+  padding: 0em;
+  margin: 0em;
 }
 
 /* Introduction text */
@@ -80,7 +80,7 @@ margin: 0em;
   font-family: "default";
   font-size: 20px;
   font-style: italic;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 /* Download Resume Button On Hover */
@@ -90,11 +90,9 @@ margin: 0em;
   animation-fill-mode: forwards;
 }
 
-
 @keyframes background-color {
   100% {
     background-color: black;
     color: #df8931;
   }
 }
-
