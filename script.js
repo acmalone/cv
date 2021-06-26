@@ -1,1 +1,1 @@
-alert("The test worked.");
+document.body.style.backgroundColor = "yellow";
