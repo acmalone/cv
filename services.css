@@ -20,7 +20,7 @@ body {
 .container {
   color: #acabe6;
   width: auto;
-  height: 25em;
+  height: auto; /* height: 25em; */
   text-align: center;
   padding: 1em;
 }
