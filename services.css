@@ -2,7 +2,7 @@ body {
   background-color: #323837;
   touch-action: auto;
 }
-/* 
+
 .homepageLink {
   color: #acabe6;
   display: inline-block;
@@ -15,7 +15,7 @@ body {
   display: inline-block;
   text-align: center;
   cursor: grab;
-} */
+}
 
 .container {
   color: #acabe6;
