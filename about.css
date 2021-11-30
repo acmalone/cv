@@ -2,6 +2,7 @@ body {
     background-color: #4e7686;
 }
 
+/* 
 .homepage {
     color: black;
     font-weight: bold;
@@ -9,13 +10,13 @@ body {
     text-decoration: none;
 }
 
-                                        /* Working on this now!!! */
+                
 .homepage:hover {
     color: #6807f9;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-}
+} */
 
 .container p {
     margin-top: 2em;
